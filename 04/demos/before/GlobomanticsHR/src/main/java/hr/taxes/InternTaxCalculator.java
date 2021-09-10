@@ -2,7 +2,7 @@ package hr.taxes;
 
 import hr.personnel.Employee;
 
-public class InternTaxCalculator {
+public class InternTaxCalculator implements TaxCalculator{
 
     private final int INCOME_TAX_PERCENTAGE = 16;
 
