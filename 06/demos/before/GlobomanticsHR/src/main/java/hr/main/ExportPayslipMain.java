@@ -24,6 +24,7 @@ public class ExportPayslipMain {
 
             String exportableText = payslip.toTxt().toUpperCase();
             System.out.println(exportableText);
+
         }
     }
 }
